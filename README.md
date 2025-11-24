@@ -1,67 +1,78 @@
-🌍 Zenix Travel Companion – AI Travel Companion
+##🌍 Zenix Travel Companion – AI Travel Companion
 
 WanderBot is a full-featured Gen-AI powered travel assistant built using Python, Gradio, and Groq LLM APIs.
 It provides travelers with an intelligent, interactive, and multi-module experience — including itinerary planning, translations, cultural info, budget estimation, route generation, currency conversion, a trivia quiz, and user feedback storage.
+---
 
-✨ Features
-🧭 1. AI Tourism Chatbot
+##✨ Features
+##🧭 1. AI Tourism Chatbot
 
-Multilingual tourism expert.
+1.Multilingual tourism expert.
 
-Context-aware responses.
+2.Context-aware responses.
 
-Follows strict system-prompt rules (language control, tourism-only domain).
+3.Follows strict system-prompt rules (language control, tourism-only domain).
 
-🎤 2. Speech → Text → Translation
+##🎤 2. Speech → Text → Translation
 
-Uses Whisper-large-v3 for transcription.
+1.Uses Whisper-large-v3 for transcription.
 
-Uses Groq LLM for ultra-fast translation.
+2.Uses Groq LLM for ultra-fast translation.
 
-Supports multiple languages.
+3.Supports multiple languages.
 
-🏛️ 3. Culture & Heritage Analyzer
+##🏛️ 3. Culture & Heritage Analyzer
 
-Generates Wikipedia-style cultural & historical reports.
+1.Generates Wikipedia-style cultural & historical reports.
 
-Uses academic tone with structured Markdown formatting.
+2.Uses academic tone with structured Markdown formatting.
 
-📅 4. AI Itinerary Planner (JSON based)
+##📅 4. AI Itinerary Planner (JSON based)
 
-Produces a structured multi-day itinerary in strict JSON.
+1.Produces a structured multi-day itinerary in strict JSON.
 
-Automatically converted into clean Markdown for UI.
+2.Automatically converted into clean Markdown for UI.
 
-💱 5. Local Currency Converter
+##💱 5. Local Currency Converter
 
-Uses pre-defined stable exchange rates.
+1.Uses pre-defined stable exchange rates.
 
-Fully offline (no API dependency).
+2.Fully offline (no API dependency).
 
-Clean, formatted output.
+3.Clean, formatted output.
 
-🚗 6. Route Planner + Live Google Maps Embed
+##🚗 6. Route Planner + Live Google Maps Embed
 
-LLM-based distance/time estimation.
+1.LLM-based distance/time estimation.
 
-Interactive Google Maps iframe embed.
+2.Interactive Google Maps iframe embed.
 
-One-tap link to open route in Google Maps.
+3.One-tap link to open route in Google Maps.
 
-💰 7. Daily Budget Estimator
+##💰 7. Daily Budget Estimator
 
-Generates a JSON-structured budget.
+1.Generates a JSON-structured budget.
 
-Converts to a detailed Markdown table.
+2.Converts to a detailed Markdown table.
 
-🧠 8. Travel Trivia Quiz
+##📝 8. Feedback Storage System
 
-5-question session with score tracking.
+1.Stores feedback in a local JSON file database.
 
-Multiple-choice questions generated dynamically.
+2.Maintains metadata: total entries, average rating, timestamps.
+---
 
-📝 9. Feedback Storage System
 
-Stores feedback in a local JSON file database.
+##🕹️ How It Works
 
-Maintains metadata: total entries, average rating, timestamps.
+1.Open the app using Python + Gradio.
+
+2.Select any tool such as Chatbot, Translator, Itinerary, or Route Planner.
+
+3.The LLM processes your request and displays formatted results instantly.
+
+4.Currency, and budget work locally using JSON logic.
+
+5.All user feedback is saved automatically in a local database.
+
+---
