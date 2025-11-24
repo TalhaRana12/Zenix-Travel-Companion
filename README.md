@@ -11,7 +11,7 @@
 ---
 
 
-# ===================== ✨ FEATURES ===============================
+# ✨ FEATURES
 
 # 🧭 1. AI Tourism Chatbot
    - Multilingual tourism expert
@@ -50,7 +50,7 @@
    - Tracks total entries, avg rating, timestamps
 
 ---
-# ===================== 🕹️ HOW IT WORKS ==========================
+# 🕹️ HOW IT WORKS
 
 1. Run the app using Python + Gradio.
 2. Select any module (Chatbot, Translation, Itinerary Planner, etc.)
@@ -58,4 +58,3 @@
 4. Currency converter & budget estimator work offline via JSON logic.
 5. All user feedback is automatically stored locally.
 ---
-# ================================================================
