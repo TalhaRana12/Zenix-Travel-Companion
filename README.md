@@ -3,11 +3,6 @@
 
  Zenix Travel Companion is a full-featured Gen-AI powered tourism
  assistant built using Python, Gradio, and Groq LLM APIs.
-
- It provides intelligent, interactive modules including:
- itinerary planning, translations, cultural insights, budget
- estimation, route generation, currency conversion, trivia quiz,
- and local feedback storage.
 ---
 
 
